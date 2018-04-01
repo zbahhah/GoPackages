@@ -9,3 +9,7 @@ func Reverse(s string) string {
 	}
 	return string(r)
 }
+
+func ReverseReverse(s string) string {
+	return string(Reverse(Reverse(s)))
+}
